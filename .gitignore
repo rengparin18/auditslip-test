@@ -1,0 +1,47 @@
+# Local agent/runtime metadata
+.hermes/
+agents/
+
+# Runtime secrets / environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
+
+# Production data and evidence (do not publish)
+data/
+exports/
+imports/
+backups/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.xlsx
+*.xlsm
+*.zip
+*.gz
+
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.bak
+*.orig
+*.tmp
